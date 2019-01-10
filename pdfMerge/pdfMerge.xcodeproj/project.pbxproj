@@ -1,0 +1,586 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C49E8A5B21E71CE700FC036E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49E8A5A21E71CE700FC036E /* AppDelegate.swift */; };
+		C49E8A5D21E71CE700FC036E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49E8A5C21E71CE700FC036E /* ViewController.swift */; };
+		C49E8A5F21E71CE700FC036E /* Document.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49E8A5E21E71CE700FC036E /* Document.swift */; };
+		C49E8A6121E71CE800FC036E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C49E8A6021E71CE800FC036E /* Assets.xcassets */; };
+		C49E8A6421E71CE800FC036E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C49E8A6221E71CE800FC036E /* Main.storyboard */; };
+		C49E8A7021E71CE800FC036E /* pdfMergeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49E8A6F21E71CE800FC036E /* pdfMergeTests.swift */; };
+		C49E8A7B21E71CE800FC036E /* pdfMergeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49E8A7A21E71CE800FC036E /* pdfMergeUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C49E8A6C21E71CE800FC036E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C49E8A4F21E71CE700FC036E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C49E8A5621E71CE700FC036E;
+			remoteInfo = pdfMerge;
+		};
+		C49E8A7721E71CE800FC036E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C49E8A4F21E71CE700FC036E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C49E8A5621E71CE700FC036E;
+			remoteInfo = pdfMerge;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C49E8A5721E71CE700FC036E /* pdfMerge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pdfMerge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C49E8A5A21E71CE700FC036E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C49E8A5C21E71CE700FC036E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C49E8A5E21E71CE700FC036E /* Document.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Document.swift; sourceTree = "<group>"; };
+		C49E8A6021E71CE800FC036E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C49E8A6321E71CE800FC036E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C49E8A6521E71CE800FC036E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C49E8A6621E71CE800FC036E /* pdfMerge.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = pdfMerge.entitlements; sourceTree = "<group>"; };
+		C49E8A6B21E71CE800FC036E /* pdfMergeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pdfMergeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C49E8A6F21E71CE800FC036E /* pdfMergeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pdfMergeTests.swift; sourceTree = "<group>"; };
+		C49E8A7121E71CE800FC036E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C49E8A7621E71CE800FC036E /* pdfMergeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pdfMergeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C49E8A7A21E71CE800FC036E /* pdfMergeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pdfMergeUITests.swift; sourceTree = "<group>"; };
+		C49E8A7C21E71CE800FC036E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C49E8A5421E71CE700FC036E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C49E8A6821E71CE800FC036E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C49E8A7321E71CE800FC036E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C49E8A4E21E71CE700FC036E = {
+			isa = PBXGroup;
+			children = (
+				C49E8A5921E71CE700FC036E /* pdfMerge */,
+				C49E8A6E21E71CE800FC036E /* pdfMergeTests */,
+				C49E8A7921E71CE800FC036E /* pdfMergeUITests */,
+				C49E8A5821E71CE700FC036E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C49E8A5821E71CE700FC036E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C49E8A5721E71CE700FC036E /* pdfMerge.app */,
+				C49E8A6B21E71CE800FC036E /* pdfMergeTests.xctest */,
+				C49E8A7621E71CE800FC036E /* pdfMergeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C49E8A5921E71CE700FC036E /* pdfMerge */ = {
+			isa = PBXGroup;
+			children = (
+				C49E8A5A21E71CE700FC036E /* AppDelegate.swift */,
+				C49E8A5C21E71CE700FC036E /* ViewController.swift */,
+				C49E8A5E21E71CE700FC036E /* Document.swift */,
+				C49E8A6021E71CE800FC036E /* Assets.xcassets */,
+				C49E8A6221E71CE800FC036E /* Main.storyboard */,
+				C49E8A6521E71CE800FC036E /* Info.plist */,
+				C49E8A6621E71CE800FC036E /* pdfMerge.entitlements */,
+			);
+			path = pdfMerge;
+			sourceTree = "<group>";
+		};
+		C49E8A6E21E71CE800FC036E /* pdfMergeTests */ = {
+			isa = PBXGroup;
+			children = (
+				C49E8A6F21E71CE800FC036E /* pdfMergeTests.swift */,
+				C49E8A7121E71CE800FC036E /* Info.plist */,
+			);
+			path = pdfMergeTests;
+			sourceTree = "<group>";
+		};
+		C49E8A7921E71CE800FC036E /* pdfMergeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C49E8A7A21E71CE800FC036E /* pdfMergeUITests.swift */,
+				C49E8A7C21E71CE800FC036E /* Info.plist */,
+			);
+			path = pdfMergeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C49E8A5621E71CE700FC036E /* pdfMerge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C49E8A7F21E71CE800FC036E /* Build configuration list for PBXNativeTarget "pdfMerge" */;
+			buildPhases = (
+				C49E8A5321E71CE700FC036E /* Sources */,
+				C49E8A5421E71CE700FC036E /* Frameworks */,
+				C49E8A5521E71CE700FC036E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = pdfMerge;
+			productName = pdfMerge;
+			productReference = C49E8A5721E71CE700FC036E /* pdfMerge.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C49E8A6A21E71CE800FC036E /* pdfMergeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C49E8A8221E71CE800FC036E /* Build configuration list for PBXNativeTarget "pdfMergeTests" */;
+			buildPhases = (
+				C49E8A6721E71CE800FC036E /* Sources */,
+				C49E8A6821E71CE800FC036E /* Frameworks */,
+				C49E8A6921E71CE800FC036E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C49E8A6D21E71CE800FC036E /* PBXTargetDependency */,
+			);
+			name = pdfMergeTests;
+			productName = pdfMergeTests;
+			productReference = C49E8A6B21E71CE800FC036E /* pdfMergeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C49E8A7521E71CE800FC036E /* pdfMergeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C49E8A8521E71CE800FC036E /* Build configuration list for PBXNativeTarget "pdfMergeUITests" */;
+			buildPhases = (
+				C49E8A7221E71CE800FC036E /* Sources */,
+				C49E8A7321E71CE800FC036E /* Frameworks */,
+				C49E8A7421E71CE800FC036E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C49E8A7821E71CE800FC036E /* PBXTargetDependency */,
+			);
+			name = pdfMergeUITests;
+			productName = pdfMergeUITests;
+			productReference = C49E8A7621E71CE800FC036E /* pdfMergeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C49E8A4F21E71CE700FC036E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = ZLM;
+				TargetAttributes = {
+					C49E8A5621E71CE700FC036E = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					C49E8A6A21E71CE800FC036E = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = C49E8A5621E71CE700FC036E;
+					};
+					C49E8A7521E71CE800FC036E = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = C49E8A5621E71CE700FC036E;
+					};
+				};
+			};
+			buildConfigurationList = C49E8A5221E71CE700FC036E /* Build configuration list for PBXProject "pdfMerge" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C49E8A4E21E71CE700FC036E;
+			productRefGroup = C49E8A5821E71CE700FC036E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C49E8A5621E71CE700FC036E /* pdfMerge */,
+				C49E8A6A21E71CE800FC036E /* pdfMergeTests */,
+				C49E8A7521E71CE800FC036E /* pdfMergeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C49E8A5521E71CE700FC036E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C49E8A6121E71CE800FC036E /* Assets.xcassets in Resources */,
+				C49E8A6421E71CE800FC036E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C49E8A6921E71CE800FC036E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C49E8A7421E71CE800FC036E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C49E8A5321E71CE700FC036E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C49E8A5D21E71CE700FC036E /* ViewController.swift in Sources */,
+				C49E8A5B21E71CE700FC036E /* AppDelegate.swift in Sources */,
+				C49E8A5F21E71CE700FC036E /* Document.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C49E8A6721E71CE800FC036E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C49E8A7021E71CE800FC036E /* pdfMergeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C49E8A7221E71CE800FC036E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C49E8A7B21E71CE800FC036E /* pdfMergeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C49E8A6D21E71CE800FC036E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C49E8A5621E71CE700FC036E /* pdfMerge */;
+			targetProxy = C49E8A6C21E71CE800FC036E /* PBXContainerItemProxy */;
+		};
+		C49E8A7821E71CE800FC036E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C49E8A5621E71CE700FC036E /* pdfMerge */;
+			targetProxy = C49E8A7721E71CE800FC036E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C49E8A6221E71CE800FC036E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C49E8A6321E71CE800FC036E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C49E8A7D21E71CE800FC036E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C49E8A7E21E71CE800FC036E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		C49E8A8021E71CE800FC036E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = pdfMerge/pdfMerge.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = FA222CQ7R2;
+				INFOPLIST_FILE = pdfMerge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zlm.pdfMerge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		C49E8A8121E71CE800FC036E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = pdfMerge/pdfMerge.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = FA222CQ7R2;
+				INFOPLIST_FILE = pdfMerge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zlm.pdfMerge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
+		C49E8A8321E71CE800FC036E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = FA222CQ7R2;
+				INFOPLIST_FILE = pdfMergeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zlm.pdfMergeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pdfMerge.app/Contents/MacOS/pdfMerge";
+			};
+			name = Debug;
+		};
+		C49E8A8421E71CE800FC036E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = FA222CQ7R2;
+				INFOPLIST_FILE = pdfMergeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zlm.pdfMergeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pdfMerge.app/Contents/MacOS/pdfMerge";
+			};
+			name = Release;
+		};
+		C49E8A8621E71CE800FC036E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = FA222CQ7R2;
+				INFOPLIST_FILE = pdfMergeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zlm.pdfMergeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_TARGET_NAME = pdfMerge;
+			};
+			name = Debug;
+		};
+		C49E8A8721E71CE800FC036E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = FA222CQ7R2;
+				INFOPLIST_FILE = pdfMergeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zlm.pdfMergeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_TARGET_NAME = pdfMerge;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C49E8A5221E71CE700FC036E /* Build configuration list for PBXProject "pdfMerge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C49E8A7D21E71CE800FC036E /* Debug */,
+				C49E8A7E21E71CE800FC036E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C49E8A7F21E71CE800FC036E /* Build configuration list for PBXNativeTarget "pdfMerge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C49E8A8021E71CE800FC036E /* Debug */,
+				C49E8A8121E71CE800FC036E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C49E8A8221E71CE800FC036E /* Build configuration list for PBXNativeTarget "pdfMergeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C49E8A8321E71CE800FC036E /* Debug */,
+				C49E8A8421E71CE800FC036E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C49E8A8521E71CE800FC036E /* Build configuration list for PBXNativeTarget "pdfMergeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C49E8A8621E71CE800FC036E /* Debug */,
+				C49E8A8721E71CE800FC036E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C49E8A4F21E71CE700FC036E /* Project object */;
+}
