@@ -7,67 +7,67 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C49E8A5B21E71CE700FC036E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49E8A5A21E71CE700FC036E /* AppDelegate.swift */; };
-		C49E8A5D21E71CE700FC036E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49E8A5C21E71CE700FC036E /* ViewController.swift */; };
-		C49E8A5F21E71CE700FC036E /* Document.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49E8A5E21E71CE700FC036E /* Document.swift */; };
-		C49E8A6121E71CE800FC036E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C49E8A6021E71CE800FC036E /* Assets.xcassets */; };
-		C49E8A6421E71CE800FC036E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C49E8A6221E71CE800FC036E /* Main.storyboard */; };
-		C49E8A7021E71CE800FC036E /* pdfMergeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49E8A6F21E71CE800FC036E /* pdfMergeTests.swift */; };
-		C49E8A7B21E71CE800FC036E /* pdfMergeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49E8A7A21E71CE800FC036E /* pdfMergeUITests.swift */; };
-		C49E8A8921E729F900FC036E /* PdfMergeUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49E8A8821E729F900FC036E /* PdfMergeUtil.swift */; };
+		C49E8AD421E8649800FC036E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49E8AD321E8649800FC036E /* AppDelegate.swift */; };
+		C49E8AD821E8649900FC036E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C49E8AD721E8649900FC036E /* Assets.xcassets */; };
+		C49E8ADB21E8649900FC036E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C49E8AD921E8649900FC036E /* Main.storyboard */; };
+		C49E8AE721E8649900FC036E /* pdfMergeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49E8AE621E8649900FC036E /* pdfMergeTests.swift */; };
+		C49E8AF221E8649900FC036E /* pdfMergeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49E8AF121E8649900FC036E /* pdfMergeUITests.swift */; };
+		C49E8B0221E865DF00FC036E /* PdfMergeutil.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49E8B0121E865DF00FC036E /* PdfMergeutil.swift */; };
+		C49E8B0521E8660200FC036E /* PDFViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49E8B0321E8660200FC036E /* PDFViewCell.swift */; };
+		C49E8B0621E8660200FC036E /* PDFViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49E8B0421E8660200FC036E /* PDFViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		C49E8A6C21E71CE800FC036E /* PBXContainerItemProxy */ = {
+		C49E8AE321E8649900FC036E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = C49E8A4F21E71CE700FC036E /* Project object */;
+			containerPortal = C49E8AC821E8649800FC036E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = C49E8A5621E71CE700FC036E;
+			remoteGlobalIDString = C49E8ACF21E8649800FC036E;
 			remoteInfo = pdfMerge;
 		};
-		C49E8A7721E71CE800FC036E /* PBXContainerItemProxy */ = {
+		C49E8AEE21E8649900FC036E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = C49E8A4F21E71CE700FC036E /* Project object */;
+			containerPortal = C49E8AC821E8649800FC036E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = C49E8A5621E71CE700FC036E;
+			remoteGlobalIDString = C49E8ACF21E8649800FC036E;
 			remoteInfo = pdfMerge;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		C49E8A5721E71CE700FC036E /* pdfMerge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pdfMerge.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		C49E8A5A21E71CE700FC036E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C49E8A5C21E71CE700FC036E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		C49E8A5E21E71CE700FC036E /* Document.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Document.swift; sourceTree = "<group>"; };
-		C49E8A6021E71CE800FC036E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		C49E8A6321E71CE800FC036E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		C49E8A6521E71CE800FC036E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C49E8A6621E71CE800FC036E /* pdfMerge.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = pdfMerge.entitlements; sourceTree = "<group>"; };
-		C49E8A6B21E71CE800FC036E /* pdfMergeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pdfMergeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		C49E8A6F21E71CE800FC036E /* pdfMergeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pdfMergeTests.swift; sourceTree = "<group>"; };
-		C49E8A7121E71CE800FC036E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C49E8A7621E71CE800FC036E /* pdfMergeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pdfMergeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		C49E8A7A21E71CE800FC036E /* pdfMergeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pdfMergeUITests.swift; sourceTree = "<group>"; };
-		C49E8A7C21E71CE800FC036E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C49E8A8821E729F900FC036E /* PdfMergeUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PdfMergeUtil.swift; sourceTree = "<group>"; };
+		C49E8AD021E8649800FC036E /* pdfMerge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pdfMerge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C49E8AD321E8649800FC036E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C49E8AD721E8649900FC036E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C49E8ADA21E8649900FC036E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C49E8ADC21E8649900FC036E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C49E8ADD21E8649900FC036E /* pdfMerge.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = pdfMerge.entitlements; sourceTree = "<group>"; };
+		C49E8AE221E8649900FC036E /* pdfMergeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pdfMergeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C49E8AE621E8649900FC036E /* pdfMergeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pdfMergeTests.swift; sourceTree = "<group>"; };
+		C49E8AE821E8649900FC036E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C49E8AED21E8649900FC036E /* pdfMergeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pdfMergeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C49E8AF121E8649900FC036E /* pdfMergeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pdfMergeUITests.swift; sourceTree = "<group>"; };
+		C49E8AF321E8649900FC036E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C49E8B0121E865DF00FC036E /* PdfMergeutil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PdfMergeutil.swift; sourceTree = "<group>"; };
+		C49E8B0321E8660200FC036E /* PDFViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PDFViewCell.swift; sourceTree = "<group>"; };
+		C49E8B0421E8660200FC036E /* PDFViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PDFViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		C49E8A5421E71CE700FC036E /* Frameworks */ = {
+		C49E8ACD21E8649800FC036E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C49E8A6821E71CE800FC036E /* Frameworks */ = {
+		C49E8ADF21E8649900FC036E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C49E8A7321E71CE800FC036E /* Frameworks */ = {
+		C49E8AEA21E8649900FC036E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -77,55 +77,55 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		C49E8A4E21E71CE700FC036E = {
+		C49E8AC721E8649800FC036E = {
 			isa = PBXGroup;
 			children = (
-				C49E8A5921E71CE700FC036E /* pdfMerge */,
-				C49E8A6E21E71CE800FC036E /* pdfMergeTests */,
-				C49E8A7921E71CE800FC036E /* pdfMergeUITests */,
-				C49E8A5821E71CE700FC036E /* Products */,
+				C49E8AD221E8649800FC036E /* pdfMerge */,
+				C49E8AE521E8649900FC036E /* pdfMergeTests */,
+				C49E8AF021E8649900FC036E /* pdfMergeUITests */,
+				C49E8AD121E8649800FC036E /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		C49E8A5821E71CE700FC036E /* Products */ = {
+		C49E8AD121E8649800FC036E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C49E8A5721E71CE700FC036E /* pdfMerge.app */,
-				C49E8A6B21E71CE800FC036E /* pdfMergeTests.xctest */,
-				C49E8A7621E71CE800FC036E /* pdfMergeUITests.xctest */,
+				C49E8AD021E8649800FC036E /* pdfMerge.app */,
+				C49E8AE221E8649900FC036E /* pdfMergeTests.xctest */,
+				C49E8AED21E8649900FC036E /* pdfMergeUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C49E8A5921E71CE700FC036E /* pdfMerge */ = {
+		C49E8AD221E8649800FC036E /* pdfMerge */ = {
 			isa = PBXGroup;
 			children = (
-				C49E8A5A21E71CE700FC036E /* AppDelegate.swift */,
-				C49E8A5C21E71CE700FC036E /* ViewController.swift */,
-				C49E8A8821E729F900FC036E /* PdfMergeUtil.swift */,
-				C49E8A5E21E71CE700FC036E /* Document.swift */,
-				C49E8A6021E71CE800FC036E /* Assets.xcassets */,
-				C49E8A6221E71CE800FC036E /* Main.storyboard */,
-				C49E8A6521E71CE800FC036E /* Info.plist */,
-				C49E8A6621E71CE800FC036E /* pdfMerge.entitlements */,
+				C49E8AD321E8649800FC036E /* AppDelegate.swift */,
+				C49E8B0121E865DF00FC036E /* PdfMergeutil.swift */,
+				C49E8B0321E8660200FC036E /* PDFViewCell.swift */,
+				C49E8B0421E8660200FC036E /* PDFViewController.swift */,
+				C49E8AD721E8649900FC036E /* Assets.xcassets */,
+				C49E8AD921E8649900FC036E /* Main.storyboard */,
+				C49E8ADC21E8649900FC036E /* Info.plist */,
+				C49E8ADD21E8649900FC036E /* pdfMerge.entitlements */,
 			);
 			path = pdfMerge;
 			sourceTree = "<group>";
 		};
-		C49E8A6E21E71CE800FC036E /* pdfMergeTests */ = {
+		C49E8AE521E8649900FC036E /* pdfMergeTests */ = {
 			isa = PBXGroup;
 			children = (
-				C49E8A6F21E71CE800FC036E /* pdfMergeTests.swift */,
-				C49E8A7121E71CE800FC036E /* Info.plist */,
+				C49E8AE621E8649900FC036E /* pdfMergeTests.swift */,
+				C49E8AE821E8649900FC036E /* Info.plist */,
 			);
 			path = pdfMergeTests;
 			sourceTree = "<group>";
 		};
-		C49E8A7921E71CE800FC036E /* pdfMergeUITests */ = {
+		C49E8AF021E8649900FC036E /* pdfMergeUITests */ = {
 			isa = PBXGroup;
 			children = (
-				C49E8A7A21E71CE800FC036E /* pdfMergeUITests.swift */,
-				C49E8A7C21E71CE800FC036E /* Info.plist */,
+				C49E8AF121E8649900FC036E /* pdfMergeUITests.swift */,
+				C49E8AF321E8649900FC036E /* Info.plist */,
 			);
 			path = pdfMergeUITests;
 			sourceTree = "<group>";
@@ -133,13 +133,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C49E8A5621E71CE700FC036E /* pdfMerge */ = {
+		C49E8ACF21E8649800FC036E /* pdfMerge */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C49E8A7F21E71CE800FC036E /* Build configuration list for PBXNativeTarget "pdfMerge" */;
+			buildConfigurationList = C49E8AF621E8649900FC036E /* Build configuration list for PBXNativeTarget "pdfMerge" */;
 			buildPhases = (
-				C49E8A5321E71CE700FC036E /* Sources */,
-				C49E8A5421E71CE700FC036E /* Frameworks */,
-				C49E8A5521E71CE700FC036E /* Resources */,
+				C49E8ACC21E8649800FC036E /* Sources */,
+				C49E8ACD21E8649800FC036E /* Frameworks */,
+				C49E8ACE21E8649800FC036E /* Resources */,
 			);
 			buildRules = (
 			);
@@ -147,69 +147,69 @@
 			);
 			name = pdfMerge;
 			productName = pdfMerge;
-			productReference = C49E8A5721E71CE700FC036E /* pdfMerge.app */;
+			productReference = C49E8AD021E8649800FC036E /* pdfMerge.app */;
 			productType = "com.apple.product-type.application";
 		};
-		C49E8A6A21E71CE800FC036E /* pdfMergeTests */ = {
+		C49E8AE121E8649900FC036E /* pdfMergeTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C49E8A8221E71CE800FC036E /* Build configuration list for PBXNativeTarget "pdfMergeTests" */;
+			buildConfigurationList = C49E8AF921E8649900FC036E /* Build configuration list for PBXNativeTarget "pdfMergeTests" */;
 			buildPhases = (
-				C49E8A6721E71CE800FC036E /* Sources */,
-				C49E8A6821E71CE800FC036E /* Frameworks */,
-				C49E8A6921E71CE800FC036E /* Resources */,
+				C49E8ADE21E8649900FC036E /* Sources */,
+				C49E8ADF21E8649900FC036E /* Frameworks */,
+				C49E8AE021E8649900FC036E /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				C49E8A6D21E71CE800FC036E /* PBXTargetDependency */,
+				C49E8AE421E8649900FC036E /* PBXTargetDependency */,
 			);
 			name = pdfMergeTests;
 			productName = pdfMergeTests;
-			productReference = C49E8A6B21E71CE800FC036E /* pdfMergeTests.xctest */;
+			productReference = C49E8AE221E8649900FC036E /* pdfMergeTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		C49E8A7521E71CE800FC036E /* pdfMergeUITests */ = {
+		C49E8AEC21E8649900FC036E /* pdfMergeUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C49E8A8521E71CE800FC036E /* Build configuration list for PBXNativeTarget "pdfMergeUITests" */;
+			buildConfigurationList = C49E8AFC21E8649900FC036E /* Build configuration list for PBXNativeTarget "pdfMergeUITests" */;
 			buildPhases = (
-				C49E8A7221E71CE800FC036E /* Sources */,
-				C49E8A7321E71CE800FC036E /* Frameworks */,
-				C49E8A7421E71CE800FC036E /* Resources */,
+				C49E8AE921E8649900FC036E /* Sources */,
+				C49E8AEA21E8649900FC036E /* Frameworks */,
+				C49E8AEB21E8649900FC036E /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				C49E8A7821E71CE800FC036E /* PBXTargetDependency */,
+				C49E8AEF21E8649900FC036E /* PBXTargetDependency */,
 			);
 			name = pdfMergeUITests;
 			productName = pdfMergeUITests;
-			productReference = C49E8A7621E71CE800FC036E /* pdfMergeUITests.xctest */;
+			productReference = C49E8AED21E8649900FC036E /* pdfMergeUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		C49E8A4F21E71CE700FC036E /* Project object */ = {
+		C49E8AC821E8649800FC036E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1010;
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = ZLM;
 				TargetAttributes = {
-					C49E8A5621E71CE700FC036E = {
+					C49E8ACF21E8649800FC036E = {
 						CreatedOnToolsVersion = 10.1;
 					};
-					C49E8A6A21E71CE800FC036E = {
+					C49E8AE121E8649900FC036E = {
 						CreatedOnToolsVersion = 10.1;
-						TestTargetID = C49E8A5621E71CE700FC036E;
+						TestTargetID = C49E8ACF21E8649800FC036E;
 					};
-					C49E8A7521E71CE800FC036E = {
+					C49E8AEC21E8649900FC036E = {
 						CreatedOnToolsVersion = 10.1;
-						TestTargetID = C49E8A5621E71CE700FC036E;
+						TestTargetID = C49E8ACF21E8649800FC036E;
 					};
 				};
 			};
-			buildConfigurationList = C49E8A5221E71CE700FC036E /* Build configuration list for PBXProject "pdfMerge" */;
+			buildConfigurationList = C49E8ACB21E8649800FC036E /* Build configuration list for PBXProject "pdfMerge" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -217,36 +217,36 @@
 				en,
 				Base,
 			);
-			mainGroup = C49E8A4E21E71CE700FC036E;
-			productRefGroup = C49E8A5821E71CE700FC036E /* Products */;
+			mainGroup = C49E8AC721E8649800FC036E;
+			productRefGroup = C49E8AD121E8649800FC036E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C49E8A5621E71CE700FC036E /* pdfMerge */,
-				C49E8A6A21E71CE800FC036E /* pdfMergeTests */,
-				C49E8A7521E71CE800FC036E /* pdfMergeUITests */,
+				C49E8ACF21E8649800FC036E /* pdfMerge */,
+				C49E8AE121E8649900FC036E /* pdfMergeTests */,
+				C49E8AEC21E8649900FC036E /* pdfMergeUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		C49E8A5521E71CE700FC036E /* Resources */ = {
+		C49E8ACE21E8649800FC036E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C49E8A6121E71CE800FC036E /* Assets.xcassets in Resources */,
-				C49E8A6421E71CE800FC036E /* Main.storyboard in Resources */,
+				C49E8AD821E8649900FC036E /* Assets.xcassets in Resources */,
+				C49E8ADB21E8649900FC036E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C49E8A6921E71CE800FC036E /* Resources */ = {
+		C49E8AE021E8649900FC036E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C49E8A7421E71CE800FC036E /* Resources */ = {
+		C49E8AEB21E8649900FC036E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -256,53 +256,53 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		C49E8A5321E71CE700FC036E /* Sources */ = {
+		C49E8ACC21E8649800FC036E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C49E8A5D21E71CE700FC036E /* ViewController.swift in Sources */,
-				C49E8A8921E729F900FC036E /* PdfMergeUtil.swift in Sources */,
-				C49E8A5B21E71CE700FC036E /* AppDelegate.swift in Sources */,
-				C49E8A5F21E71CE700FC036E /* Document.swift in Sources */,
+				C49E8B0221E865DF00FC036E /* PdfMergeutil.swift in Sources */,
+				C49E8AD421E8649800FC036E /* AppDelegate.swift in Sources */,
+				C49E8B0521E8660200FC036E /* PDFViewCell.swift in Sources */,
+				C49E8B0621E8660200FC036E /* PDFViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C49E8A6721E71CE800FC036E /* Sources */ = {
+		C49E8ADE21E8649900FC036E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C49E8A7021E71CE800FC036E /* pdfMergeTests.swift in Sources */,
+				C49E8AE721E8649900FC036E /* pdfMergeTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C49E8A7221E71CE800FC036E /* Sources */ = {
+		C49E8AE921E8649900FC036E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C49E8A7B21E71CE800FC036E /* pdfMergeUITests.swift in Sources */,
+				C49E8AF221E8649900FC036E /* pdfMergeUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		C49E8A6D21E71CE800FC036E /* PBXTargetDependency */ = {
+		C49E8AE421E8649900FC036E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = C49E8A5621E71CE700FC036E /* pdfMerge */;
-			targetProxy = C49E8A6C21E71CE800FC036E /* PBXContainerItemProxy */;
+			target = C49E8ACF21E8649800FC036E /* pdfMerge */;
+			targetProxy = C49E8AE321E8649900FC036E /* PBXContainerItemProxy */;
 		};
-		C49E8A7821E71CE800FC036E /* PBXTargetDependency */ = {
+		C49E8AEF21E8649900FC036E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = C49E8A5621E71CE700FC036E /* pdfMerge */;
-			targetProxy = C49E8A7721E71CE800FC036E /* PBXContainerItemProxy */;
+			target = C49E8ACF21E8649800FC036E /* pdfMerge */;
+			targetProxy = C49E8AEE21E8649900FC036E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		C49E8A6221E71CE800FC036E /* Main.storyboard */ = {
+		C49E8AD921E8649900FC036E /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				C49E8A6321E71CE800FC036E /* Base */,
+				C49E8ADA21E8649900FC036E /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -310,7 +310,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		C49E8A7D21E71CE800FC036E /* Debug */ = {
+		C49E8AF421E8649900FC036E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -371,7 +371,7 @@
 			};
 			name = Debug;
 		};
-		C49E8A7E21E71CE800FC036E /* Release */ = {
+		C49E8AF521E8649900FC036E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -425,7 +425,7 @@
 			};
 			name = Release;
 		};
-		C49E8A8021E71CE800FC036E /* Debug */ = {
+		C49E8AF721E8649900FC036E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -443,7 +443,7 @@
 			};
 			name = Debug;
 		};
-		C49E8A8121E71CE800FC036E /* Release */ = {
+		C49E8AF821E8649900FC036E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -461,7 +461,7 @@
 			};
 			name = Release;
 		};
-		C49E8A8321E71CE800FC036E /* Debug */ = {
+		C49E8AFA21E8649900FC036E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -482,7 +482,7 @@
 			};
 			name = Debug;
 		};
-		C49E8A8421E71CE800FC036E /* Release */ = {
+		C49E8AFB21E8649900FC036E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -503,7 +503,7 @@
 			};
 			name = Release;
 		};
-		C49E8A8621E71CE800FC036E /* Debug */ = {
+		C49E8AFD21E8649900FC036E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -523,7 +523,7 @@
 			};
 			name = Debug;
 		};
-		C49E8A8721E71CE800FC036E /* Release */ = {
+		C49E8AFE21E8649900FC036E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -546,43 +546,43 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C49E8A5221E71CE700FC036E /* Build configuration list for PBXProject "pdfMerge" */ = {
+		C49E8ACB21E8649800FC036E /* Build configuration list for PBXProject "pdfMerge" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C49E8A7D21E71CE800FC036E /* Debug */,
-				C49E8A7E21E71CE800FC036E /* Release */,
+				C49E8AF421E8649900FC036E /* Debug */,
+				C49E8AF521E8649900FC036E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C49E8A7F21E71CE800FC036E /* Build configuration list for PBXNativeTarget "pdfMerge" */ = {
+		C49E8AF621E8649900FC036E /* Build configuration list for PBXNativeTarget "pdfMerge" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C49E8A8021E71CE800FC036E /* Debug */,
-				C49E8A8121E71CE800FC036E /* Release */,
+				C49E8AF721E8649900FC036E /* Debug */,
+				C49E8AF821E8649900FC036E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C49E8A8221E71CE800FC036E /* Build configuration list for PBXNativeTarget "pdfMergeTests" */ = {
+		C49E8AF921E8649900FC036E /* Build configuration list for PBXNativeTarget "pdfMergeTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C49E8A8321E71CE800FC036E /* Debug */,
-				C49E8A8421E71CE800FC036E /* Release */,
+				C49E8AFA21E8649900FC036E /* Debug */,
+				C49E8AFB21E8649900FC036E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C49E8A8521E71CE800FC036E /* Build configuration list for PBXNativeTarget "pdfMergeUITests" */ = {
+		C49E8AFC21E8649900FC036E /* Build configuration list for PBXNativeTarget "pdfMergeUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C49E8A8621E71CE800FC036E /* Debug */,
-				C49E8A8721E71CE800FC036E /* Release */,
+				C49E8AFD21E8649900FC036E /* Debug */,
+				C49E8AFE21E8649900FC036E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = C49E8A4F21E71CE700FC036E /* Project object */;
+	rootObject = C49E8AC821E8649800FC036E /* Project object */;
 }
