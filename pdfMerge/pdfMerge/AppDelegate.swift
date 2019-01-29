@@ -15,5 +15,9 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         sender.windows.first?.makeKeyAndOrderFront(self)
         return true
     }
+    
+    @IBAction func splitButtonPressed(_ sender: Any) {
+        
+    }
 }
 

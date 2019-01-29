@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "C49E8ACF21E8649800FC036E"
-               BuildableName = "pdfMerge.app"
+               BuildableName = "PDF Merge.app"
                BlueprintName = "pdfMerge"
                ReferencedContainer = "container:pdfMerge.xcodeproj">
             </BuildableReference>
@@ -53,7 +53,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "C49E8ACF21E8649800FC036E"
-            BuildableName = "pdfMerge.app"
+            BuildableName = "PDF Merge.app"
             BlueprintName = "pdfMerge"
             ReferencedContainer = "container:pdfMerge.xcodeproj">
          </BuildableReference>
@@ -76,7 +76,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "C49E8ACF21E8649800FC036E"
-            BuildableName = "pdfMerge.app"
+            BuildableName = "PDF Merge.app"
             BlueprintName = "pdfMerge"
             ReferencedContainer = "container:pdfMerge.xcodeproj">
          </BuildableReference>
@@ -95,7 +95,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "C49E8ACF21E8649800FC036E"
-            BuildableName = "pdfMerge.app"
+            BuildableName = "PDF Merge.app"
             BlueprintName = "pdfMerge"
             ReferencedContainer = "container:pdfMerge.xcodeproj">
          </BuildableReference>

@@ -1,15 +1,15 @@
 //
-//  ViewController.swift
+//  PDFSplitViewController.swift
 //  pdfMerge
 //
-//  Created by bruce on 2019/1/10.
+//  Created by bruce on 2019/1/28.
 //  Copyright © 2019 ZLM. All rights reserved.
 //
 
 import Cocoa
 
-class PDFViewController: NSViewController {
-    
+class PDFSplitViewController: NSViewController {
+
     var fileURLs: [URL] = []
     @IBOutlet weak var tableView: NSTableView!
     @IBOutlet weak var mergeButton: NSButton!
@@ -86,7 +86,7 @@ class PDFViewController: NSViewController {
     }
 }
 
-extension PDFViewController: NSTableViewDataSource, NSTableViewDelegate {
+extension PDFSplitViewController: NSTableViewDataSource, NSTableViewDelegate {
     func numberOfRows(in tableView: NSTableView) -> Int {
         return fileURLs.count
     }

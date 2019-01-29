@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C465296421FF080F001CA92F /* PDFDeleteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C465296321FF080F001CA92F /* PDFDeleteViewController.swift */; };
+		C465296721FF42B7001CA92F /* PDFSplitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C465296521FF42B7001CA92F /* PDFSplitViewController.swift */; };
 		C49E8AD421E8649800FC036E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49E8AD321E8649800FC036E /* AppDelegate.swift */; };
 		C49E8AD821E8649900FC036E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C49E8AD721E8649900FC036E /* Assets.xcassets */; };
 		C49E8ADB21E8649900FC036E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C49E8AD921E8649900FC036E /* Main.storyboard */; };
@@ -35,7 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		C49E8AD021E8649800FC036E /* pdfMerge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pdfMerge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C465296321FF080F001CA92F /* PDFDeleteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFDeleteViewController.swift; sourceTree = "<group>"; };
+		C465296521FF42B7001CA92F /* PDFSplitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFSplitViewController.swift; sourceTree = "<group>"; };
+		C49E8AD021E8649800FC036E /* PDF Merge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PDF Merge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C49E8AD321E8649800FC036E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C49E8AD721E8649900FC036E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C49E8ADA21E8649900FC036E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -77,6 +81,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C465296121FF07C4001CA92F /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C49E8B0321E8660200FC036E /* PDFViewCell.swift */,
+				C49E8B0421E8660200FC036E /* PDFViewController.swift */,
+				C465296321FF080F001CA92F /* PDFDeleteViewController.swift */,
+				C465296521FF42B7001CA92F /* PDFSplitViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		C465296221FF07D1001CA92F /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				C49E8B0121E865DF00FC036E /* PdfMergeutil.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 		C49E8AC721E8649800FC036E = {
 			isa = PBXGroup;
 			children = (
@@ -90,7 +113,7 @@
 		C49E8AD121E8649800FC036E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C49E8AD021E8649800FC036E /* pdfMerge.app */,
+				C49E8AD021E8649800FC036E /* PDF Merge.app */,
 				C49E8AE221E8649900FC036E /* pdfMergeTests.xctest */,
 				C49E8AED21E8649900FC036E /* pdfMergeUITests.xctest */,
 			);
@@ -100,10 +123,9 @@
 		C49E8AD221E8649800FC036E /* pdfMerge */ = {
 			isa = PBXGroup;
 			children = (
+				C465296221FF07D1001CA92F /* Helpers */,
+				C465296121FF07C4001CA92F /* ViewController */,
 				C49E8AD321E8649800FC036E /* AppDelegate.swift */,
-				C49E8B0121E865DF00FC036E /* PdfMergeutil.swift */,
-				C49E8B0321E8660200FC036E /* PDFViewCell.swift */,
-				C49E8B0421E8660200FC036E /* PDFViewController.swift */,
 				C49E8AD721E8649900FC036E /* Assets.xcassets */,
 				C49E8AD921E8649900FC036E /* Main.storyboard */,
 				C49E8ADC21E8649900FC036E /* Info.plist */,
@@ -147,7 +169,7 @@
 			);
 			name = pdfMerge;
 			productName = pdfMerge;
-			productReference = C49E8AD021E8649800FC036E /* pdfMerge.app */;
+			productReference = C49E8AD021E8649800FC036E /* PDF Merge.app */;
 			productType = "com.apple.product-type.application";
 		};
 		C49E8AE121E8649900FC036E /* pdfMergeTests */ = {
@@ -262,7 +284,9 @@
 			files = (
 				C49E8B0221E865DF00FC036E /* PdfMergeutil.swift in Sources */,
 				C49E8AD421E8649800FC036E /* AppDelegate.swift in Sources */,
+				C465296421FF080F001CA92F /* PDFDeleteViewController.swift in Sources */,
 				C49E8B0521E8660200FC036E /* PDFViewCell.swift in Sources */,
+				C465296721FF42B7001CA92F /* PDFSplitViewController.swift in Sources */,
 				C49E8B0621E8660200FC036E /* PDFViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -361,10 +385,11 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "PDF Merge";
 				SDKROOT = macosx;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -416,9 +441,10 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "PDF Merge";
 				SDKROOT = macosx;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
@@ -438,7 +464,7 @@
 					"@executable_path/../Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.zlm.pdfMerge;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "PDF Merge";
 				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
@@ -456,7 +482,7 @@
 					"@executable_path/../Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.zlm.pdfMerge;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "PDF Merge";
 				SWIFT_VERSION = 4.2;
 			};
 			name = Release;
