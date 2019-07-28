@@ -12,29 +12,10 @@
 		C49E8AD421E8649800FC036E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49E8AD321E8649800FC036E /* AppDelegate.swift */; };
 		C49E8AD821E8649900FC036E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C49E8AD721E8649900FC036E /* Assets.xcassets */; };
 		C49E8ADB21E8649900FC036E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C49E8AD921E8649900FC036E /* Main.storyboard */; };
-		C49E8AE721E8649900FC036E /* pdfMergeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49E8AE621E8649900FC036E /* pdfMergeTests.swift */; };
-		C49E8AF221E8649900FC036E /* pdfMergeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49E8AF121E8649900FC036E /* pdfMergeUITests.swift */; };
 		C49E8B0221E865DF00FC036E /* PdfMergeutil.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49E8B0121E865DF00FC036E /* PdfMergeutil.swift */; };
 		C49E8B0521E8660200FC036E /* PDFViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49E8B0321E8660200FC036E /* PDFViewCell.swift */; };
 		C49E8B0621E8660200FC036E /* PDFViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49E8B0421E8660200FC036E /* PDFViewController.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		C49E8AE321E8649900FC036E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = C49E8AC821E8649800FC036E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = C49E8ACF21E8649800FC036E;
-			remoteInfo = pdfMerge;
-		};
-		C49E8AEE21E8649900FC036E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = C49E8AC821E8649800FC036E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = C49E8ACF21E8649800FC036E;
-			remoteInfo = pdfMerge;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		C465296321FF080F001CA92F /* PDFDeleteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFDeleteViewController.swift; sourceTree = "<group>"; };
@@ -45,10 +26,8 @@
 		C49E8ADA21E8649900FC036E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C49E8ADC21E8649900FC036E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C49E8ADD21E8649900FC036E /* pdfMerge.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = pdfMerge.entitlements; sourceTree = "<group>"; };
-		C49E8AE221E8649900FC036E /* pdfMergeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pdfMergeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C49E8AE621E8649900FC036E /* pdfMergeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pdfMergeTests.swift; sourceTree = "<group>"; };
 		C49E8AE821E8649900FC036E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C49E8AED21E8649900FC036E /* pdfMergeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pdfMergeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C49E8AF121E8649900FC036E /* pdfMergeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pdfMergeUITests.swift; sourceTree = "<group>"; };
 		C49E8AF321E8649900FC036E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C49E8B0121E865DF00FC036E /* PdfMergeutil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PdfMergeutil.swift; sourceTree = "<group>"; };
@@ -58,20 +37,6 @@
 
 /* Begin PBXFrameworksBuildPhase section */
 		C49E8ACD21E8649800FC036E /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C49E8ADF21E8649900FC036E /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C49E8AEA21E8649900FC036E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -114,8 +79,6 @@
 			isa = PBXGroup;
 			children = (
 				C49E8AD021E8649800FC036E /* PDF Merge.app */,
-				C49E8AE221E8649900FC036E /* pdfMergeTests.xctest */,
-				C49E8AED21E8649900FC036E /* pdfMergeUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -172,42 +135,6 @@
 			productReference = C49E8AD021E8649800FC036E /* PDF Merge.app */;
 			productType = "com.apple.product-type.application";
 		};
-		C49E8AE121E8649900FC036E /* pdfMergeTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = C49E8AF921E8649900FC036E /* Build configuration list for PBXNativeTarget "pdfMergeTests" */;
-			buildPhases = (
-				C49E8ADE21E8649900FC036E /* Sources */,
-				C49E8ADF21E8649900FC036E /* Frameworks */,
-				C49E8AE021E8649900FC036E /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				C49E8AE421E8649900FC036E /* PBXTargetDependency */,
-			);
-			name = pdfMergeTests;
-			productName = pdfMergeTests;
-			productReference = C49E8AE221E8649900FC036E /* pdfMergeTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		C49E8AEC21E8649900FC036E /* pdfMergeUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = C49E8AFC21E8649900FC036E /* Build configuration list for PBXNativeTarget "pdfMergeUITests" */;
-			buildPhases = (
-				C49E8AE921E8649900FC036E /* Sources */,
-				C49E8AEA21E8649900FC036E /* Frameworks */,
-				C49E8AEB21E8649900FC036E /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				C49E8AEF21E8649900FC036E /* PBXTargetDependency */,
-			);
-			name = pdfMergeUITests;
-			productName = pdfMergeUITests;
-			productReference = C49E8AED21E8649900FC036E /* pdfMergeUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -220,14 +147,7 @@
 				TargetAttributes = {
 					C49E8ACF21E8649800FC036E = {
 						CreatedOnToolsVersion = 10.1;
-					};
-					C49E8AE121E8649900FC036E = {
-						CreatedOnToolsVersion = 10.1;
-						TestTargetID = C49E8ACF21E8649800FC036E;
-					};
-					C49E8AEC21E8649900FC036E = {
-						CreatedOnToolsVersion = 10.1;
-						TestTargetID = C49E8ACF21E8649800FC036E;
+						LastSwiftMigration = 1020;
 					};
 				};
 			};
@@ -245,8 +165,6 @@
 			projectRoot = "";
 			targets = (
 				C49E8ACF21E8649800FC036E /* pdfMerge */,
-				C49E8AE121E8649900FC036E /* pdfMergeTests */,
-				C49E8AEC21E8649900FC036E /* pdfMergeUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -258,20 +176,6 @@
 			files = (
 				C49E8AD821E8649900FC036E /* Assets.xcassets in Resources */,
 				C49E8ADB21E8649900FC036E /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C49E8AE021E8649900FC036E /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C49E8AEB21E8649900FC036E /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,36 +195,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C49E8ADE21E8649900FC036E /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C49E8AE721E8649900FC036E /* pdfMergeTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C49E8AE921E8649900FC036E /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C49E8AF221E8649900FC036E /* pdfMergeUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		C49E8AE421E8649900FC036E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = C49E8ACF21E8649800FC036E /* pdfMerge */;
-			targetProxy = C49E8AE321E8649900FC036E /* PBXContainerItemProxy */;
-		};
-		C49E8AEF21E8649900FC036E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = C49E8ACF21E8649800FC036E /* pdfMerge */;
-			targetProxy = C49E8AEE21E8649900FC036E /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		C49E8AD921E8649900FC036E /* Main.storyboard */ = {
@@ -465,7 +340,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.zlm.pdfMerge;
 				PRODUCT_NAME = "PDF Merge";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -483,89 +358,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.zlm.pdfMerge;
 				PRODUCT_NAME = "PDF Merge";
-				SWIFT_VERSION = 4.2;
-			};
-			name = Release;
-		};
-		C49E8AFA21E8649900FC036E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = FA222CQ7R2;
-				INFOPLIST_FILE = pdfMergeTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/../Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.zlm.pdfMergeTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pdfMerge.app/Contents/MacOS/pdfMerge";
-			};
-			name = Debug;
-		};
-		C49E8AFB21E8649900FC036E /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = FA222CQ7R2;
-				INFOPLIST_FILE = pdfMergeTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/../Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.zlm.pdfMergeTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pdfMerge.app/Contents/MacOS/pdfMerge";
-			};
-			name = Release;
-		};
-		C49E8AFD21E8649900FC036E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = FA222CQ7R2;
-				INFOPLIST_FILE = pdfMergeUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/../Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.zlm.pdfMergeUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TEST_TARGET_NAME = pdfMerge;
-			};
-			name = Debug;
-		};
-		C49E8AFE21E8649900FC036E /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = FA222CQ7R2;
-				INFOPLIST_FILE = pdfMergeUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/../Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.zlm.pdfMergeUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TEST_TARGET_NAME = pdfMerge;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
@@ -586,24 +379,6 @@
 			buildConfigurations = (
 				C49E8AF721E8649900FC036E /* Debug */,
 				C49E8AF821E8649900FC036E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		C49E8AF921E8649900FC036E /* Build configuration list for PBXNativeTarget "pdfMergeTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C49E8AFA21E8649900FC036E /* Debug */,
-				C49E8AFB21E8649900FC036E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		C49E8AFC21E8649900FC036E /* Build configuration list for PBXNativeTarget "pdfMergeUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C49E8AFD21E8649900FC036E /* Debug */,
-				C49E8AFE21E8649900FC036E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
