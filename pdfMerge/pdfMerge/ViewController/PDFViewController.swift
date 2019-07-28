@@ -15,8 +15,12 @@ class PDFViewController: NSViewController {
     @IBOutlet weak var mergeButton: NSButton!
     @IBOutlet weak var tipTextField: NSTextField!
     
+    private var dragDropType = NSPasteboard.PasteboardType(rawValue: "private.table-row")
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        tableView.registerForDraggedTypes([dragDropType])
     }
     
     deinit {
@@ -82,11 +86,11 @@ class PDFViewController: NSViewController {
         }
     }
     
-    private func getName(_ fileURL: URL) -> String {
+    private func getName(_ fileURL: URL) -> String? {
         guard let fileName = fileURL.absoluteString.split(separator: "/").last else {
             return ""
         }
-        return String(fileName)
+        return String(fileName).removingPercentEncoding
     }
 }
 
@@ -101,12 +105,67 @@ extension PDFViewController: NSTableViewDataSource, NSTableViewDelegate {
     
     func tableView(_ tableView: NSTableView, viewFor tableColumn: NSTableColumn?, row: Int) -> NSView? {
         let cell = tableView.makeView(withIdentifier: NSUserInterfaceItemIdentifier(rawValue: "PDFViewCell"), owner: nil) as! PDFViewCell
-        cell.textField?.stringValue = getName(fileURLs[row])
+        cell.textField?.stringValue = getName(fileURLs[row]) ?? ""
         cell.deleteAction = { [weak self] in
             guard let strongSelf = self else { return }
             strongSelf.fileURLs.remove(at: row)
             strongSelf.tableView.reloadData()
         }
         return cell
+    }
+    
+    // drag to sort
+    
+    func tableView(_ tableView: NSTableView, pasteboardWriterForRow row: Int) -> NSPasteboardWriting? {
+        
+        let item = NSPasteboardItem()
+        item.setString(String(row), forType: self.dragDropType)
+        return item
+    }
+    
+    func tableView(_ tableView: NSTableView, validateDrop info: NSDraggingInfo, proposedRow row: Int, proposedDropOperation dropOperation: NSTableView.DropOperation) -> NSDragOperation {
+        
+        if dropOperation == .above {
+            return .move
+        }
+        return []
+    }
+    
+    func tableView(_ tableView: NSTableView, acceptDrop info: NSDraggingInfo, row: Int, dropOperation: NSTableView.DropOperation) -> Bool {
+        
+        var oldIndexes = [Int]()
+        info.enumerateDraggingItems(options: [], for: tableView, classes: [NSPasteboardItem.self], searchOptions: [:]) { dragItem, _, _ in
+            if let str = (dragItem.item as! NSPasteboardItem).string(forType: self.dragDropType), let index = Int(str) {
+                oldIndexes.append(index)
+            }
+        }
+        
+        var oldIndexOffset = 0
+        var newIndexOffset = 0
+        
+        // For simplicity, the code below uses `tableView.moveRowAtIndex` to move rows around directly.
+        // You may want to move rows in your content array and then call `tableView.reloadData()` instead.
+        tableView.beginUpdates()
+        for oldIndex in oldIndexes {
+            if oldIndex < row {
+                tableView.moveRow(at: oldIndex + oldIndexOffset, to: row - 1)
+                oldIndexOffset -= 1
+                let url = fileURLs[oldIndex]
+                fileURLs.remove(at: oldIndex)
+                fileURLs.insert(url, at: row - 1)
+                print("from:", oldIndex, "to: ", row - 1)
+            } else {
+                tableView.moveRow(at: oldIndex, to: row + newIndexOffset)
+                newIndexOffset += 1
+                let url = fileURLs[oldIndex]
+                fileURLs.remove(at: oldIndex)
+                fileURLs.insert(url, at: row)
+                print("from:", oldIndex, "to: ", row)
+
+            }
+        }
+        tableView.endUpdates()
+        
+        return true
     }
 }
